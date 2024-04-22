@@ -1,8 +1,8 @@
 body {
-    background-image: url('../images/background.jpeg'); /* Adjust the path based on your file structure */
-    background-size: cover;
-    background-repeat: repeat;
-    background-attachment: fixed;
+  background-image: url('../images/background.jpeg'); /* Adjust the path based on your file structure */
+  background-size: cover;
+  background-repeat: repeat;
+  background-attachment: fixed;
 	background-color: blanchedalmond;
 	min-height: 2000px;
 }
@@ -10,14 +10,14 @@ body {
 .header {
   text-align: center;
   position: relative;
-  margin: 0 auto;
+  margin-top: 10%;
   width: auto;
   height: auto;
   border: 6mm ridge rgba(230, 62, 127, .6);  padding: 0.5em;
 	letter-spacing: 1px;
 	text-transform: uppercase;
 	text-decoration: none;
-	background-image: url('./images/fbackbar.jpeg');
+	background-image: url('../images/fbackbar.jpeg');
 }
 
 
@@ -80,6 +80,7 @@ footer {
     color: #fff;
     text-align: center;
     padding: 0.1rem;
+    font-size: 0.8rem;
     position: fixed;
     bottom: 0;
     width: 100%;
@@ -134,26 +135,35 @@ footer {
 }
 
 
+.ecke {
+  position: absolute;
+  top: 0;
+	right: 20px;
+  font-style: oblique;
+}
+
+.one {
+  margin-top: 0;
+}
 
 .logo {
-  position: relative;
-  width: 33%;
-  height: auto;
-  transform: translate(-50%, -15%);
-  top: 90%;
-	left: 15%;
+  position: absolute;
+  width: 13%;
+  top: 0;
+	left: 20px;
 }
 
 .qr {
-	position: absolute;
-	top: 70%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+  position: relative; /* Change from fixed to relative */
+  margin-top: 20px;
 	text-align: center;
+  margin-bottom: 60px; /* Add space equal to the height of the footer plus some extra */
+
 }
 
+
 .qr img {
-    width: 100%;
+    width: 20%;
     height: auto; 
 }
 
@@ -326,6 +336,8 @@ footer {
 	text-decoration: none;
 	padding: 12px 30px;
 	transition: all .5s;
+  margin-bottom: 60px; /* Add space equal to the height of the footer plus some extra */
+
   }
   .cart-btn:hover {
 	background-color: #64af3d;
@@ -367,6 +379,8 @@ footer {
     display: flex;
     justify-content: space-between;
     margin-top: 50px; /* Adjust as needed */
+    margin-bottom: 60px; /* Add space equal to the height of the footer plus some extra */
+
 }
 
 /* Contact Section */
